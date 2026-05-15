@@ -5,7 +5,7 @@ Este diretório é dedicado a projetos, scripts e simulações focados na prote�
 ## 🛠️ Projetos em Destaque
 
 ### 1. Criptografia Simétrica: Padrão AES (Advanced Encryption Standard)
-* **Arquivo:** `AES_IMPORTANTE.java`
+* **Arquivo:** `AES.java`
 * **Descrição:** Implementação do padrão AES, o algoritmo de criptografia simétrica mais utilizado mundialmente, utilizando a API `javax.crypto`.
 * **Conceitos Abordados:**
   * Uso do modo de operação **CBC (Cipher Block Chaining)** com preenchimento `PKCS5Padding`.
