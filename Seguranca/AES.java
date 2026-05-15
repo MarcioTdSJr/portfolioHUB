@@ -6,7 +6,7 @@ import java.util.Base64;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class AES_IMPORTANTE {
+public class AES {
     private static String encriptar (String texto, String chave) throws Exception{
         Cipher objCifra = Cipher.getInstance("AES/CBC/PKCS5Padding");
         SecretKey objChave = new SecretKeySpec(chave.getBytes("UTF-8"), "AES");
